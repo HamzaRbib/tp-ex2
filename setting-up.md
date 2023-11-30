@@ -13,11 +13,8 @@ When you initialize a Git repository using the `git init` command, you can speci
 ## Set the Initial Branch Name:
 
 Specify the name of the initial branch (default is "master").
-
 `git init -b <branch_name>`
-
 ## Specify the Shared Repository Mode:
 
 Set the shared repository mode, allowing multiple users to push into the repository.
-
 `git init --shared[=<permissions>]`
