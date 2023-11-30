@@ -14,20 +14,20 @@ git cherry-pick is used to pick a specific commit and mergit to a specific branc
 ## Create a New Branch:
 
 Create a new branch and switch to it.
-`git checkout -b <branch_name>`
+`$ git checkout -b <branch_name>`
 Alternatively (Git 2.23 and later)
-`git switch -c <branch_name>`
+`$ git switch -c <branch_name>`
 ## Delete a local branch
 
 Delete a local branch.
-`git branch -d <branch_name>`
+`$ git branch -d <branch_name>`
 Delete a local branch forcefully
-`git branch -D <branch_name>`
+`$ git branch -D <branch_name>`
 ## Delete a remote branch
 
 Delete a remote branch
-`git push origin --delete <branch_name>`
+`$ git push origin --delete <branch_name>`
 ## Rename the Current Branch:
 
 Rename the current branch.
-`git branch -m <new_branch_name>`
+`$ git branch -m <new_branch_name>`
